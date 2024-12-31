@@ -9,6 +9,7 @@ body{
   align-items: center;
   flex-direction: column;
   min-height: 100vh;
+  background-color: black;
 }
 h1,h2,p{
   margin: 0;
@@ -72,6 +73,11 @@ h1,h2,p{
   justify-content: center;
   color: hsl(217, 12%, 63%);
 }
+.star-rating:hover{
+  background-color: hsl(0, 0%, 100%);
+  cursor: pointer;
+  color: hsl(216, 12%, 8%);
+}
 button{
   background-color: hsl(25, 97%, 53%);
   color: hsl(216, 12%, 8%);
@@ -81,4 +87,8 @@ button{
   font-family: "Overpass", serif;
   font-weight: bold;
   font-size: 15px;
+}
+button:hover{
+  background-color: hsl(0, 0%, 100%);
+  cursor: pointer;
 }
