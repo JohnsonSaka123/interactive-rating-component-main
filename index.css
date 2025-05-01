@@ -10,10 +10,11 @@ body{
   flex-direction: column;
   min-height: 100vh;
   background-color: black;
+  font-family: "Overpass",
+    serif;
 }
 h1,h2,p{
   margin: 0;
-  font-family: "Overpass", serif;
 }
 .main{
   background : linear-gradient(
@@ -78,17 +79,56 @@ h1,h2,p{
   cursor: pointer;
   color: hsl(216, 12%, 8%);
 }
+
 button{
   background-color: hsl(25, 97%, 53%);
   color: hsl(216, 12%, 8%);
   border: none;
   border-radius: 20px;
   padding: 10px 5px;
-  font-family: "Overpass", serif;
   font-weight: bold;
   font-size: 15px;
 }
 button:hover{
   background-color: hsl(0, 0%, 100%);
   cursor: pointer;
+}
+.attribution{
+  color: white;
+}
+.thank-you-card{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: hsl(213, 19%, 18%);
+  padding: 20px;
+  width: 340px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.big-illus{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  flex-direction: column;
+  gap: 10px;
+}
+.big-illus p{
+  padding: 8px 10px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+.big-illus img{
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+
+}
+.thank-you-content h3{
+  text-align: center;
+}
+.thank-you-content p{
+  text-align: center;
+  color: hsl(217, 12%, 63%);
 }
