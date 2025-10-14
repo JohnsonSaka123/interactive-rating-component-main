@@ -4,17 +4,18 @@ This is a solution to the [Interactive Rating Component challenge on Frontend Me
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Frontend Mentor - Interactive Rating Component Solution](#frontend-mentor---interactive-rating-component-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+    - [Useful resources](#useful-resources)
+  - [Author](#author)
 
 ## Overview
 
@@ -29,14 +30,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./Screenshot%202025-10-14%20at%2018.47.54.png)
 
-*Replace the image above with a screenshot of your solution.*
 
 ### Links
 
-- Solution URL: [GitHub Repo](https://github.com/yourusername/interactive-rating-component)
-- Live Site URL: [Live Demo](https://your-live-site-url.com)
+- Solution URL: [GitHub Repo](https://github.com/JohnsonWalker-cmd/interactive-rating-component-main.git)
+- Live Site URL: [Live Demo](https://interactive-rating-component-main-cyan.vercel.app/)
 
 ## My process
 
@@ -64,3 +64,31 @@ ratings.forEach((rating, index) => {
     countRate = index + 1;
   });
 });
+
+```
+
+### Continued development
+- Add keyboard accessibility for selecting ratings
+
+- Improve visual transitions/animations between rating and thank-you card
+
+- Refactor code to use a more modular approach or frameworks like React for better scalability
+
+
+### Useful resources
+
+  [Frontend Mentor Challenge](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI)
+ - The original challenge and design guidelines
+
+[MDN Web Docs](https://developer.mozilla.org/en-US/)
+ - For HTML, CSS, and JS reference
+
+[CSS Tricks](https://css-tricks.com/)
+ - Helpful for styling hover effects and flex/grid layouts
+
+
+## Author
+
+- Website - [Coming-soon](https://www.your-site.com)
+- Frontend Mentor - [@JohnsonWalker-cmd](https://www.frontendmentor.io/profile/JohnsonWalker-cmd)
+- Twitter - [@walkerthecutev](https://x.com/walkerthecutev)
